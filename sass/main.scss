@@ -1,0 +1,31 @@
+@import url('https://cdn.jsdelivr.net/npm/picnic');
+
+$nav_height : 3em;
+
+nav {
+    height: $nav_height;
+}
+
+body {
+    margin-top: $nav-height;
+}
+
+.homeButton {
+    background: #8f1630;
+}
+
+main {
+    width: 90%;
+    margin: auto;
+}
+
+.brand-description {
+    float: left;
+    color: rgb(99, 99, 99);
+    padding: 0 .6em;
+    max-width: 50%;
+    white-space: nowrap;
+    transform: translateY(-50%);
+    position: relative;
+    top: 50%;
+}
