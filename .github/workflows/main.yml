@@ -1,4 +1,8 @@
-# On every push this script is executed
+permissions:
+  contents: write
+  packages: write
+  pages: write
+
 on: push
 name: Build and deploy GH Pages
 jobs:
